@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.quote-box{
+    border-radius: 2px;
+    margin-top:10% ;
+    width: auto;
+    height: auto;
+    border:hidden;
+    background-color: white;
+    padding: 30px;
+    font-size: 8px;
+}
+.quote-text{
+    font-size: 30px;
+    text-align: left;
+}
+.quote-author{
+    font-size: 15px;
+    text-align: right;
+}
+.button-tween .button-tumblr .button-quote {
+    margin: 5px;
+    float: none;
+    color: white;
+    height: 20px;
+    width: auto;
+}
+.button-quote{
+    clear:both;
+    float: right;
+}
+.quote{
+    margin: 20px;
+}
+.button{
+    color: #FFFFFF;
+    border-radius: 0.5px;
+    border: hidden;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    font-size: 10px;
+    color: #FFFFFF;
+}

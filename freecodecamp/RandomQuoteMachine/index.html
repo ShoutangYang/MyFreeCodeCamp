@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RandomQuteMachine</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/QuoteMachine.css">
+
+    <link rel="stylesheet" href="jQueryUI/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="quote-box col-xs-12 ">
+       <div class="quote center-block">
+           <div class="quote-text"> <p id="quote-text"></p></div>
+           <div class="quote-author">-<span id="quote-author"></span></div>
+
+       </div>
+        <div class="buttons">
+            <button class="button  btn btn-default button-tumblr" onclick="pushTumblr()">Tumblr</button>
+            <button class="button btn btn-default button-tween " onclick="pushTweet()">Tweet</button>
+            <button class="button btn btn-default button-quote" id="button-quote" onclick="getQuote()">New quote</button>
+        </div>
+    </div>
+<div class="footer col-xs-12">
+    by <a href="https://github.com/ShoutangYang" target="_blank"   style="color: white">Ton.Yang</a>
+</div>
+</div>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/QuoteMachine.js"> </script>
+
+<script src="jQueryUI/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
